@@ -17,6 +17,33 @@
   padding: 25px;
 }
 
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .flag-card {
   width: 120px;
+  transform: scale(0.8);
+  transition: all 0.4s ease;
+}
+
+.card:hover .flag-card {
+  transform: scale(1);
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search {
+  font-weight: 700;
+  border: #ccc solid 1px;
+  background-color: #efefef;
+  border-radius: 7px;
+  width: 80%;
+  padding: 10px 25px;
 }
