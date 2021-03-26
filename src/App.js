@@ -1,35 +1,18 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 import { client } from './config/client-graphql';
-import { gql } from '@apollo/client'
+import { ApolloProvider } from '@apollo/client'
+import Card from './components/Card';
+import Header from './components/Header';
 
 function App() {
-  useEffect(() => {
-    initial();
-  }, [])
 
-  const initial = () => {
-    client.query({
-      query: gql`
-        query {
-          Country {
-            name
-            capital
-            flag {
-              emoji
-              emojiUnicode
-              svgFile
-            }
-          }
-        }
-      `
-    }).then(resp => console.log(resp.data))
-  }
 
   return (
-    <div>
-      App
-    </div>
+    <ApolloProvider client={ client }>
+      <Header title='Listagem de Paises' subtitle='Rafael Moura' />
+      <Card />
+    </ApolloProvider>
   )
 }
 
