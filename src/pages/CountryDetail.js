@@ -64,16 +64,16 @@ const countryQuery = gql`
             </thead>
             <tbody>
               <tr>
-                <td className='cap'>Area</td>
-                <td>{area}</td>
+                <td className='cap-table'>Area:</td>
+                <td className='value-table'>{area}</td>
               </tr>
               <tr>
-                <td className='cap'>Population</td>
-                <td>{population}</td>
+                <td className='cap-table'>Population:</td>
+                <td className='value-table'>{population}</td>
               </tr>
               <tr>
-                <td className='cap'>Top Level Domain</td>
-                <td>{topLevelDomains.map((item, index) => <p key={item.name}>{item.name}</p> )}</td>
+                <td className='cap-table'>Top Level Domain:</td>
+                <td className='value-table'>{topLevelDomains.map((item, index) => <p key={item.name}>{item.name}</p> )}</td>
               </tr>
             </tbody>
           </table>

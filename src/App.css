@@ -14,18 +14,19 @@
 }
 
 table {
-  box-shadow: 0 0 4px #ccc;
+  box-shadow: 5px 6px 15px #333;
   padding: 10px;
   margin-top: 10%;
 }
 
 table thead th{
-  background-color: #ddd;
+  font-size: 20px;
+  background-color: #aaa;
   padding: 5px 0;
 }
 
 table tbody td {
-  box-shadow: 0 0 4px #ddd;
+  box-shadow: 0 0 4px #aaa;
   padding: 2px 5px;
 }
 
@@ -34,7 +35,11 @@ table tbody td p {
   padding: 0;
 }
 
-.cap {
+.cap-table {
   width: 150px;
   font-weight: 700;
+}
+
+.value-table {
+  padding: 2px 10px;
 }
