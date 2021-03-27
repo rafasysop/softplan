@@ -13,10 +13,22 @@
   float: left;
 }
 
+.details-icons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+  width: 200px;
+  margin: 3% 0 1%;
+}
+
+.details-icons a {
+  color: black;
+  text-decoration: none;
+}
+
 table {
   box-shadow: 5px 6px 15px #333;
   padding: 10px;
-  margin-top: 10%;
 }
 
 table thead th{

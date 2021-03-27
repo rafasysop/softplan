@@ -32,7 +32,6 @@ function Card() {
   const countryLocal = JSON.parse(localStorage.getItem('Country'));
   let { loading, data } = useQuery(countries);
   if (countryLocal) {
-    console.log(countryLocal);
     data = countryLocal;
   } 
   const [filter, setFilter] = useState('');
@@ -41,19 +40,29 @@ function Card() {
       <img src={ loadingIMG } alt="Loading"/>
     </div>);
   localStorage.setItem('Country', JSON.stringify(data))
-
   return (
     <>
       <div className='search-container' >
-        <input type="text" name='search' className="search" onChange={({ target }) => setFilter(target.value)} placeholder='Buscar Pais' />
+        <input
+          name='search'
+          className="search"
+          onChange={({ target }) => setFilter(target.value)}
+          placeholder='Search Country'
+        />
       </div>
       <div className='card-container'>
-        {data.Country.filter(item => (item.name).toLowerCase().includes(filter.toLocaleLowerCase())).map((pais, index) => (
+        {data.Country.filter(item => (item.name).toLowerCase()
+            .includes(filter.toLocaleLowerCase())).map((pais, index) => (
           <div key={pais.numericCode} className='card'>
             <img className='flag-card' src={pais.flag.svgFile} alt={pais.name} />
             <h3>{pais.name}</h3>
-            Capital: {pais.capital}
-            <Link to={`/country/${pais.numericCode}`} className='more-datails' > + Details</Link>
+              Capital: {pais.capital}
+            <Link
+              to={`/country/${pais.numericCode}`}
+              className='more-datails'
+            > 
+              + Details
+            </Link>
           </div>
         ))}
       </div>
