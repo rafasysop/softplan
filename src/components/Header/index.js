@@ -6,9 +6,16 @@ function Header(props) {
   const { title, subtitle, flag } = props
   return (
     <header>
-      {flag && <img src={ flag } alt={ title }/>}
-      <h1>{ title }</h1>
-      <p>{ subtitle }</p>
+      {flag 
+        ? <img src={ flag } className='header-flag' alt={ title }/> 
+        : <div className="spacer"></div>  
+      }
+      <div className="text-title">
+        <h1>{ title }</h1>
+        <h2>{ subtitle }</h2>
+      </div>
+      <div className="spacer">
+      </div>
     </header>
   )
 }

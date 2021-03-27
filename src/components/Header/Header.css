@@ -2,6 +2,24 @@ header {
   color: white;
   background-color: rgb(9, 9, 109);
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.header-flag {
+  border-radius: 5%;
+  width: 150px;
+}
+
+.text-title {
+  align-items: center;
+  min-width: 272px;
+  display: flex;
+  flex-direction: column;
+}
+
+.spacer {
+  width: 150px;
 }
