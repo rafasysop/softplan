@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
+
 import { useQuery } from '@apollo/client';
 import { GET_COUNTRY } from '../config/client-graphql'
 
 import loadingIMG from '../assets/loading.svg';
 import Header from '../components/Header';
 import { TiArrowBack, TiEdit } from "react-icons/ti";
-import { Link } from 'react-router-dom';
 
 function CountryDetail(props) {
   

@@ -1,32 +1,10 @@
 import React, { useState } from 'react'
-import { gql, useQuery } from '@apollo/client';
-import { GET_COUNTRY } from '../../config/client-graphql';
 import './Card.css';
 import loadingIMG from '../../assets/loading.svg';
 import { Link } from 'react-router-dom';
 
-const countries =  gql`
-query {
-  Country {
-    name
-    area
-    population
-    capital
-    numericCode
-    location {
-      latitude
-      longitude
-    }
-    flag {
-      emoji
-      emojiUnicode
-      svgFile
-    }
-    topLevelDomains {
-      name
-    }
-  }
-}`;
+import { useQuery } from '@apollo/client';
+import { GET_COUNTRY, countries } from '../../config/client-graphql';
 
 function Card() {
   const { data: cache, client } = useQuery(GET_COUNTRY);
