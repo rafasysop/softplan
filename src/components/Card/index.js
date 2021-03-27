@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { gql, useQuery } from '@apollo/client';
-
+import { GET_COUNTRY } from '../../config/client-graphql';
 import './Card.css';
 import loadingIMG from '../../assets/loading.svg';
 import { Link } from 'react-router-dom';
@@ -29,17 +29,21 @@ query {
 }`;
 
 function Card() {
-  const countryLocal = JSON.parse(localStorage.getItem('Country'));
+  const { data: cache, client } = useQuery(GET_COUNTRY);
+  console.log('Este é o Cache', cache);
+  console.log('Este é o Client', client);
+ 
+  // const countryLocal = JSON.parse(localStorage.getItem('Country'));
   let { loading, data } = useQuery(countries);
-  if (countryLocal) {
-    data = countryLocal;
+  if (cache) {
+    data = cache;
   } 
   const [filter, setFilter] = useState('');
   if (loading) return (
     <div className="load">
       <img src={ loadingIMG } alt="Loading"/>
     </div>);
-  localStorage.setItem('Country', JSON.stringify(data))
+  // localStorage.setItem('Country', JSON.stringify(data))
   return (
     <>
       <div className='search-container' >
@@ -51,8 +55,8 @@ function Card() {
         />
       </div>
       <div className='card-container'>
-        {data.Country.filter(item => (item.name).toLowerCase()
-            .includes(filter.toLocaleLowerCase())).map((pais, index) => (
+        {data.Country?.filter(item => (item.name).toLowerCase()
+            .includes(filter.toLocaleLowerCase())).map((pais) => (
           <div key={pais.numericCode} className='card'>
             <img className='flag-card' src={pais.flag.svgFile} alt={pais.name} />
             <h3>{pais.name}</h3>
@@ -70,4 +74,4 @@ function Card() {
   )
 }
 
-export default Card
+export default Card;

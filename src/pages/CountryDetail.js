@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useParams } from 'react-router';
-import { gql, useQuery } from '@apollo/client';
+import { useQuery } from '@apollo/client';
+import { GET_COUNTRY } from '../config/client-graphql'
 
 import loadingIMG from '../assets/loading.svg';
 import Header from '../components/Header';
@@ -19,55 +20,30 @@ function CountryDetail(props) {
   const [domainState, setDomainState] = useState();
 
 
-const countryQuery = gql`
-  query {
-    Country {
-      name
-      area
-      population
-      capital
-      numericCode
-      location {
-        latitude
-        longitude
-      }
-      flag {
-        emoji
-        emojiUnicode
-        svgFile
-      }
-      topLevelDomains {
-        name
-      }
-      
-    }
-  }`;
-
-  const countryLocal = JSON.parse(localStorage.getItem('Country'));
-  let { loading, error, data } = useQuery(countryQuery)
+  const { loading, error, data, client } = useQuery(GET_COUNTRY)
   
   const saveInfo = () => {
-    const newCountry = { Country: countryLocal.Country.map((item, i) => {
-      if (i === index) {
-        return { 
-          ...item,
-          name : nameState,
-          capital: capitalState,
-          area: areaState,
-          population: populationState,
-          topLevelDomains: [ { name: domainState } ]
-        };
+      const newCountry = { Country: data.Country.map((item, i) => {
+        if (i === index) {
+          return { 
+            ...item,
+            name : nameState,
+            capital: capitalState,
+            area: areaState,
+            population: populationState,
+            topLevelDomains: [ { name: domainState } ]
+          };
+
+        }
+        return item;
+      })}
+      client.writeQuery({
+        query: GET_COUNTRY,
+        data: { ...newCountry },
+      })
+        setEdit(false);
       }
-      return item;
-    })}
-    localStorage.setItem('Country' , JSON.stringify(newCountry));
-    setEdit(false);
-  }
 
-
-  if (countryLocal) {
-    data = countryLocal;
-  } 
   if (loading) return (
     <div className="load">
       <img src={ loadingIMG } alt="Loading"/>
