@@ -1,0 +1,3769 @@
+{
+  "data": {
+    "Country": [
+      {
+        "name": "Afghanistan",
+        "area": 652230,
+        "population": 27657145,
+        "capital": "Kabul",
+        "numericCode": "004",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/afg.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".af"
+          }
+        ]
+      },
+      {
+        "name": "Åland Islands",
+        "area": 1580,
+        "population": 28875,
+        "capital": "Mariehamn",
+        "numericCode": "248",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ala.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ax"
+          }
+        ]
+      },
+      {
+        "name": "Albania",
+        "area": 28748,
+        "population": 2886026,
+        "capital": "Tirana",
+        "numericCode": "008",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/alb.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".al"
+          }
+        ]
+      },
+      {
+        "name": "Algeria",
+        "area": 2381741,
+        "population": 40400000,
+        "capital": "Algiers",
+        "numericCode": "012",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/dza.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".dz"
+          }
+        ]
+      },
+      {
+        "name": "American Samoa",
+        "area": 199,
+        "population": 57100,
+        "capital": "Pago Pago",
+        "numericCode": "016",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/asm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".as"
+          }
+        ]
+      },
+      {
+        "name": "Andorra",
+        "area": 468,
+        "population": 78014,
+        "capital": "Andorra la Vella",
+        "numericCode": "020",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/and.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ad"
+          }
+        ]
+      },
+      {
+        "name": "Angola",
+        "area": 1246700,
+        "population": 25868000,
+        "capital": "Luanda",
+        "numericCode": "024",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ago.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ao"
+          }
+        ]
+      },
+      {
+        "name": "Anguilla",
+        "area": 91,
+        "population": 13452,
+        "capital": "The Valley",
+        "numericCode": "660",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/aia.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ai"
+          }
+        ]
+      },
+      {
+        "name": "Antarctica",
+        "area": 14000000,
+        "population": 1000,
+        "capital": "",
+        "numericCode": "010",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ata.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".aq"
+          }
+        ]
+      },
+      {
+        "name": "Antigua and Barbuda",
+        "area": 442,
+        "population": 86295,
+        "capital": "Saint John's",
+        "numericCode": "028",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/atg.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ag"
+          }
+        ]
+      },
+      {
+        "name": "Argentina",
+        "area": 2780400,
+        "population": 43590400,
+        "capital": "Buenos Aires",
+        "numericCode": "032",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/arg.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ar"
+          }
+        ]
+      },
+      {
+        "name": "Armenia",
+        "area": 29743,
+        "population": 2994400,
+        "capital": "Yerevan",
+        "numericCode": "051",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/arm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".am"
+          }
+        ]
+      },
+      {
+        "name": "Aruba",
+        "area": 180,
+        "population": 107394,
+        "capital": "Oranjestad",
+        "numericCode": "533",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/abw.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".aw"
+          }
+        ]
+      },
+      {
+        "name": "Australia",
+        "area": 7692024,
+        "population": 24117360,
+        "capital": "Canberra",
+        "numericCode": "036",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/aus.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".au"
+          }
+        ]
+      },
+      {
+        "name": "Austria",
+        "area": 83871,
+        "population": 8725931,
+        "capital": "Vienna",
+        "numericCode": "040",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/aut.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".at"
+          }
+        ]
+      },
+      {
+        "name": "Azerbaijan",
+        "area": 86600,
+        "population": 9730500,
+        "capital": "Baku",
+        "numericCode": "031",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/aze.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".az"
+          }
+        ]
+      },
+      {
+        "name": "Bahamas",
+        "area": 13943,
+        "population": 378040,
+        "capital": "Nassau",
+        "numericCode": "044",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bhs.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bs"
+          }
+        ]
+      },
+      {
+        "name": "Bahrain",
+        "area": 765,
+        "population": 1404900,
+        "capital": "Manama",
+        "numericCode": "048",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bhr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bh"
+          }
+        ]
+      },
+      {
+        "name": "Bangladesh",
+        "area": 147570,
+        "population": 161006790,
+        "capital": "Dhaka",
+        "numericCode": "050",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bgd.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bd"
+          }
+        ]
+      },
+      {
+        "name": "Barbados",
+        "area": 430,
+        "population": 285000,
+        "capital": "Bridgetown",
+        "numericCode": "052",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/brb.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bb"
+          }
+        ]
+      },
+      {
+        "name": "Belarus",
+        "area": 207600,
+        "population": 9498700,
+        "capital": "Minsk",
+        "numericCode": "112",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/blr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".by"
+          }
+        ]
+      },
+      {
+        "name": "Belgium",
+        "area": 30528,
+        "population": 11319511,
+        "capital": "Brussels",
+        "numericCode": "056",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bel.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".be"
+          }
+        ]
+      },
+      {
+        "name": "Belize",
+        "area": 22966,
+        "population": 370300,
+        "capital": "Belmopan",
+        "numericCode": "084",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/blz.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bz"
+          }
+        ]
+      },
+      {
+        "name": "Benin",
+        "area": 112622,
+        "population": 10653654,
+        "capital": "Porto-Novo",
+        "numericCode": "204",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ben.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bj"
+          }
+        ]
+      },
+      {
+        "name": "Bermuda",
+        "area": 54,
+        "population": 61954,
+        "capital": "Hamilton",
+        "numericCode": "060",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bmu.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bm"
+          }
+        ]
+      },
+      {
+        "name": "Bhutan",
+        "area": 38394,
+        "population": 775620,
+        "capital": "Thimphu",
+        "numericCode": "064",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/btn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bt"
+          }
+        ]
+      },
+      {
+        "name": "Bolivia (Plurinational State of)",
+        "area": 1098581,
+        "population": 10985059,
+        "capital": "Sucre",
+        "numericCode": "068",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bol.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bo"
+          }
+        ]
+      },
+      {
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "area": 294,
+        "population": 17408,
+        "capital": "Kralendijk",
+        "numericCode": "535",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bes.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".nl"
+          },
+          {
+            "name": ".an"
+          }
+        ]
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "area": 51209,
+        "population": 3531159,
+        "capital": "Sarajevo",
+        "numericCode": "070",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bih.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ba"
+          }
+        ]
+      },
+      {
+        "name": "Botswana",
+        "area": 582000,
+        "population": 2141206,
+        "capital": "Gaborone",
+        "numericCode": "072",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bwa.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bw"
+          }
+        ]
+      },
+      {
+        "name": "Bouvet Island",
+        "area": 49,
+        "population": 0,
+        "capital": "",
+        "numericCode": "074",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bvt.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bv"
+          }
+        ]
+      },
+      {
+        "name": "Brazil",
+        "area": 8515767,
+        "population": 206135893,
+        "capital": "Brasília",
+        "numericCode": "076",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bra.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".br"
+          }
+        ]
+      },
+      {
+        "name": "British Indian Ocean Territory",
+        "area": 60,
+        "population": 3000,
+        "capital": "Diego Garcia",
+        "numericCode": "086",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/iot.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".io"
+          }
+        ]
+      },
+      {
+        "name": "United States Minor Outlying Islands",
+        "area": null,
+        "population": 300,
+        "capital": "",
+        "numericCode": "581",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/umi.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".us"
+          }
+        ]
+      },
+      {
+        "name": "Virgin Islands (British)",
+        "area": 151,
+        "population": 28514,
+        "capital": "Road Town",
+        "numericCode": "092",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/vgb.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".vg"
+          }
+        ]
+      },
+      {
+        "name": "Virgin Islands (U.S.)",
+        "area": 346.36,
+        "population": 114743,
+        "capital": "Charlotte Amalie",
+        "numericCode": "850",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/vir.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".vi"
+          }
+        ]
+      },
+      {
+        "name": "Brunei Darussalam",
+        "area": 5765,
+        "population": 411900,
+        "capital": "Bandar Seri Begawan",
+        "numericCode": "096",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/brn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bn"
+          }
+        ]
+      },
+      {
+        "name": "Bulgaria",
+        "area": 110879,
+        "population": 7153784,
+        "capital": "Sofia",
+        "numericCode": "100",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bgr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bg"
+          }
+        ]
+      },
+      {
+        "name": "Burkina Faso",
+        "area": 272967,
+        "population": 19034397,
+        "capital": "Ouagadougou",
+        "numericCode": "854",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bfa.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bf"
+          }
+        ]
+      },
+      {
+        "name": "Burundi",
+        "area": 27834,
+        "population": 10114505,
+        "capital": "Bujumbura",
+        "numericCode": "108",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/bdi.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bi"
+          }
+        ]
+      },
+      {
+        "name": "Cambodia",
+        "area": 181035,
+        "population": 15626444,
+        "capital": "Phnom Penh",
+        "numericCode": "116",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/khm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".kh"
+          }
+        ]
+      },
+      {
+        "name": "Cameroon",
+        "area": 475442,
+        "population": 22709892,
+        "capital": "Yaoundé",
+        "numericCode": "120",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cmr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cm"
+          }
+        ]
+      },
+      {
+        "name": "Canada",
+        "area": 9984670,
+        "population": 36155487,
+        "capital": "Ottawa",
+        "numericCode": "124",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/can.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ca"
+          }
+        ]
+      },
+      {
+        "name": "Cabo Verde",
+        "area": 4033,
+        "population": 531239,
+        "capital": "Praia",
+        "numericCode": "132",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cpv.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cv"
+          }
+        ]
+      },
+      {
+        "name": "Cayman Islands",
+        "area": 264,
+        "population": 58238,
+        "capital": "George Town",
+        "numericCode": "136",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cym.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ky"
+          }
+        ]
+      },
+      {
+        "name": "Central African Republic",
+        "area": 622984,
+        "population": 4998000,
+        "capital": "Bangui",
+        "numericCode": "140",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/caf.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cf"
+          }
+        ]
+      },
+      {
+        "name": "Chad",
+        "area": 1284000,
+        "population": 14497000,
+        "capital": "N'Djamena",
+        "numericCode": "148",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tcd.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".td"
+          }
+        ]
+      },
+      {
+        "name": "Chile",
+        "area": 756102,
+        "population": 18191900,
+        "capital": "Santiago",
+        "numericCode": "152",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/chl.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cl"
+          }
+        ]
+      },
+      {
+        "name": "China",
+        "area": 9640011,
+        "population": 1377422166,
+        "capital": "Beijing",
+        "numericCode": "156",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/chn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cn"
+          }
+        ]
+      },
+      {
+        "name": "Christmas Island",
+        "area": 135,
+        "population": 2072,
+        "capital": "Flying Fish Cove",
+        "numericCode": "162",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cxr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cx"
+          }
+        ]
+      },
+      {
+        "name": "Cocos (Keeling) Islands",
+        "area": 14,
+        "population": 550,
+        "capital": "West Island",
+        "numericCode": "166",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cck.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cc"
+          }
+        ]
+      },
+      {
+        "name": "Colombia",
+        "area": 1141748,
+        "population": 48759958,
+        "capital": "Bogotá",
+        "numericCode": "170",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/col.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".co"
+          }
+        ]
+      },
+      {
+        "name": "Comoros",
+        "area": 1862,
+        "population": 806153,
+        "capital": "Moroni",
+        "numericCode": "174",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/com.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".km"
+          }
+        ]
+      },
+      {
+        "name": "Congo",
+        "area": 342000,
+        "population": 4741000,
+        "capital": "Brazzaville",
+        "numericCode": "178",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cog.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cg"
+          }
+        ]
+      },
+      {
+        "name": "Congo (Democratic Republic of the)",
+        "area": 2344858,
+        "population": 85026000,
+        "capital": "Kinshasa",
+        "numericCode": "180",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cod.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cd"
+          }
+        ]
+      },
+      {
+        "name": "Cook Islands",
+        "area": 236,
+        "population": 18100,
+        "capital": "Avarua",
+        "numericCode": "184",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cok.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ck"
+          }
+        ]
+      },
+      {
+        "name": "Costa Rica",
+        "area": 51100,
+        "population": 4890379,
+        "capital": "San José",
+        "numericCode": "188",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cri.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cr"
+          }
+        ]
+      },
+      {
+        "name": "Croatia",
+        "area": 56594,
+        "population": 4190669,
+        "capital": "Zagreb",
+        "numericCode": "191",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/hrv.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".hr"
+          }
+        ]
+      },
+      {
+        "name": "Cuba",
+        "area": 109884,
+        "population": 11239004,
+        "capital": "Havana",
+        "numericCode": "192",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cub.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cu"
+          }
+        ]
+      },
+      {
+        "name": "Curaçao",
+        "area": 444,
+        "population": 154843,
+        "capital": "Willemstad",
+        "numericCode": "531",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cuw.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cw"
+          }
+        ]
+      },
+      {
+        "name": "Cyprus",
+        "area": 9251,
+        "population": 847000,
+        "capital": "Nicosia",
+        "numericCode": "196",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cyp.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cy"
+          }
+        ]
+      },
+      {
+        "name": "Czech Republic",
+        "area": 78865,
+        "population": 10558524,
+        "capital": "Prague",
+        "numericCode": "203",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/cze.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".cz"
+          }
+        ]
+      },
+      {
+        "name": "Denmark",
+        "area": 43094,
+        "population": 5717014,
+        "capital": "Copenhagen",
+        "numericCode": "208",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/dnk.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".dk"
+          }
+        ]
+      },
+      {
+        "name": "Djibouti",
+        "area": 23200,
+        "population": 900000,
+        "capital": "Djibouti",
+        "numericCode": "262",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/dji.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".dj"
+          }
+        ]
+      },
+      {
+        "name": "Dominica",
+        "area": 751,
+        "population": 71293,
+        "capital": "Roseau",
+        "numericCode": "212",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/dma.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".dm"
+          }
+        ]
+      },
+      {
+        "name": "Dominican Republic",
+        "area": 48671,
+        "population": 10075045,
+        "capital": "Santo Domingo",
+        "numericCode": "214",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/dom.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".do"
+          }
+        ]
+      },
+      {
+        "name": "Ecuador",
+        "area": 276841,
+        "population": 16545799,
+        "capital": "Quito",
+        "numericCode": "218",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ecu.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ec"
+          }
+        ]
+      },
+      {
+        "name": "Egypt",
+        "area": 1002450,
+        "population": 91290000,
+        "capital": "Cairo",
+        "numericCode": "818",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/egy.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".eg"
+          }
+        ]
+      },
+      {
+        "name": "El Salvador",
+        "area": 21041,
+        "population": 6520675,
+        "capital": "San Salvador",
+        "numericCode": "222",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/slv.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sv"
+          }
+        ]
+      },
+      {
+        "name": "Equatorial Guinea",
+        "area": 28051,
+        "population": 1222442,
+        "capital": "Malabo",
+        "numericCode": "226",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/gnq.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gq"
+          }
+        ]
+      },
+      {
+        "name": "Eritrea",
+        "area": 117600,
+        "population": 5352000,
+        "capital": "Asmara",
+        "numericCode": "232",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/eri.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".er"
+          }
+        ]
+      },
+      {
+        "name": "Estonia",
+        "area": 45227,
+        "population": 1315944,
+        "capital": "Tallinn",
+        "numericCode": "233",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/est.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ee"
+          }
+        ]
+      },
+      {
+        "name": "Ethiopia",
+        "area": 1104300,
+        "population": 92206005,
+        "capital": "Addis Ababa",
+        "numericCode": "231",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/eth.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".et"
+          }
+        ]
+      },
+      {
+        "name": "Falkland Islands (Malvinas)",
+        "area": 12173,
+        "population": 2563,
+        "capital": "Stanley",
+        "numericCode": "238",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/flk.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".fk"
+          }
+        ]
+      },
+      {
+        "name": "Faroe Islands",
+        "area": 1393,
+        "population": 49376,
+        "capital": "Tórshavn",
+        "numericCode": "234",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/fro.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".fo"
+          }
+        ]
+      },
+      {
+        "name": "Fiji",
+        "area": 18272,
+        "population": 867000,
+        "capital": "Suva",
+        "numericCode": "242",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/fji.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".fj"
+          }
+        ]
+      },
+      {
+        "name": "Finland",
+        "area": 338424,
+        "population": 5491817,
+        "capital": "Helsinki",
+        "numericCode": "246",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/fin.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".fi"
+          }
+        ]
+      },
+      {
+        "name": "France",
+        "area": 640679,
+        "population": 66710000,
+        "capital": "Paris",
+        "numericCode": "250",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/fra.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".fr"
+          }
+        ]
+      },
+      {
+        "name": "French Guiana",
+        "area": null,
+        "population": 254541,
+        "capital": "Cayenne",
+        "numericCode": "254",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/guf.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gf"
+          }
+        ]
+      },
+      {
+        "name": "French Polynesia",
+        "area": 4167,
+        "population": 271800,
+        "capital": "Papeetē",
+        "numericCode": "258",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/pyf.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".pf"
+          }
+        ]
+      },
+      {
+        "name": "French Southern Territories",
+        "area": 7747,
+        "population": 140,
+        "capital": "Port-aux-Français",
+        "numericCode": "260",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/atf.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tf"
+          }
+        ]
+      },
+      {
+        "name": "Gabon",
+        "area": 267668,
+        "population": 1802278,
+        "capital": "Libreville",
+        "numericCode": "266",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/gab.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ga"
+          }
+        ]
+      },
+      {
+        "name": "Gambia",
+        "area": 11295,
+        "population": 1882450,
+        "capital": "Banjul",
+        "numericCode": "270",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/gmb.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gm"
+          }
+        ]
+      },
+      {
+        "name": "Georgia",
+        "area": 69700,
+        "population": 3720400,
+        "capital": "Tbilisi",
+        "numericCode": "268",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/geo.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ge"
+          }
+        ]
+      },
+      {
+        "name": "Germany",
+        "area": 357114,
+        "population": 81770900,
+        "capital": "Berlin",
+        "numericCode": "276",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/deu.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".de"
+          }
+        ]
+      },
+      {
+        "name": "Ghana",
+        "area": 238533,
+        "population": 27670174,
+        "capital": "Accra",
+        "numericCode": "288",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/gha.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gh"
+          }
+        ]
+      },
+      {
+        "name": "Gibraltar",
+        "area": 6,
+        "population": 33140,
+        "capital": "Gibraltar",
+        "numericCode": "292",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/gib.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gi"
+          }
+        ]
+      },
+      {
+        "name": "Greece",
+        "area": 131990,
+        "population": 10858018,
+        "capital": "Athens",
+        "numericCode": "300",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/grc.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gr"
+          }
+        ]
+      },
+      {
+        "name": "Greenland",
+        "area": 2166086,
+        "population": 55847,
+        "capital": "Nuuk",
+        "numericCode": "304",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/grl.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gl"
+          }
+        ]
+      },
+      {
+        "name": "Grenada",
+        "area": 344,
+        "population": 103328,
+        "capital": "St. George's",
+        "numericCode": "308",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/grd.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gd"
+          }
+        ]
+      },
+      {
+        "name": "Guadeloupe",
+        "area": null,
+        "population": 400132,
+        "capital": "Basse-Terre",
+        "numericCode": "312",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/glp.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gp"
+          }
+        ]
+      },
+      {
+        "name": "Guam",
+        "area": 549,
+        "population": 184200,
+        "capital": "Hagåtña",
+        "numericCode": "316",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/gum.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gu"
+          }
+        ]
+      },
+      {
+        "name": "Guatemala",
+        "area": 108889,
+        "population": 16176133,
+        "capital": "Guatemala City",
+        "numericCode": "320",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/gtm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gt"
+          }
+        ]
+      },
+      {
+        "name": "Guernsey",
+        "area": 78,
+        "population": 62999,
+        "capital": "St. Peter Port",
+        "numericCode": "831",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ggy.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gg"
+          }
+        ]
+      },
+      {
+        "name": "Guinea",
+        "area": 245857,
+        "population": 12947000,
+        "capital": "Conakry",
+        "numericCode": "324",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/gin.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gn"
+          }
+        ]
+      },
+      {
+        "name": "Guinea-Bissau",
+        "area": 36125,
+        "population": 1547777,
+        "capital": "Bissau",
+        "numericCode": "624",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/gnb.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gw"
+          }
+        ]
+      },
+      {
+        "name": "Guyana",
+        "area": 214969,
+        "population": 746900,
+        "capital": "Georgetown",
+        "numericCode": "328",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/guy.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gy"
+          }
+        ]
+      },
+      {
+        "name": "Haiti",
+        "area": 27750,
+        "population": 11078033,
+        "capital": "Port-au-Prince",
+        "numericCode": "332",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/hti.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ht"
+          }
+        ]
+      },
+      {
+        "name": "Heard Island and McDonald Islands",
+        "area": 412,
+        "population": 0,
+        "capital": "",
+        "numericCode": "334",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/hmd.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".aq"
+          },
+          {
+            "name": ".hm"
+          }
+        ]
+      },
+      {
+        "name": "Holy See",
+        "area": 0.44,
+        "population": 451,
+        "capital": "Rome",
+        "numericCode": "336",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/vat.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".va"
+          }
+        ]
+      },
+      {
+        "name": "Honduras",
+        "area": 112492,
+        "population": 8576532,
+        "capital": "Tegucigalpa",
+        "numericCode": "340",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/hnd.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".hn"
+          }
+        ]
+      },
+      {
+        "name": "Hong Kong",
+        "area": 1104,
+        "population": 7324300,
+        "capital": "City of Victoria",
+        "numericCode": "344",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/hkg.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".hk"
+          }
+        ]
+      },
+      {
+        "name": "Hungary",
+        "area": 93028,
+        "population": 9823000,
+        "capital": "Budapest",
+        "numericCode": "348",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/hun.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".hu"
+          }
+        ]
+      },
+      {
+        "name": "Iceland",
+        "area": 103000,
+        "population": 334300,
+        "capital": "Reykjavík",
+        "numericCode": "352",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/isl.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".is"
+          }
+        ]
+      },
+      {
+        "name": "India",
+        "area": 3287590,
+        "population": 1295210000,
+        "capital": "New Delhi",
+        "numericCode": "356",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ind.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".in"
+          }
+        ]
+      },
+      {
+        "name": "Indonesia",
+        "area": 1904569,
+        "population": 258705000,
+        "capital": "Jakarta",
+        "numericCode": "360",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/idn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".id"
+          }
+        ]
+      },
+      {
+        "name": "Côte d'Ivoire",
+        "area": 322463,
+        "population": 22671331,
+        "capital": "Yamoussoukro",
+        "numericCode": "384",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/civ.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ci"
+          }
+        ]
+      },
+      {
+        "name": "Iran (Islamic Republic of)",
+        "area": 1648195,
+        "population": 79369900,
+        "capital": "Tehran",
+        "numericCode": "364",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/irn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ir"
+          }
+        ]
+      },
+      {
+        "name": "Iraq",
+        "area": 438317,
+        "population": 37883543,
+        "capital": "Baghdad",
+        "numericCode": "368",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/irq.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".iq"
+          }
+        ]
+      },
+      {
+        "name": "Ireland",
+        "area": 70273,
+        "population": 6378000,
+        "capital": "Dublin",
+        "numericCode": "372",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/irl.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ie"
+          }
+        ]
+      },
+      {
+        "name": "Isle of Man",
+        "area": 572,
+        "population": 84497,
+        "capital": "Douglas",
+        "numericCode": "833",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/imn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".im"
+          }
+        ]
+      },
+      {
+        "name": "Israel",
+        "area": 20770,
+        "population": 8527400,
+        "capital": "Jerusalem",
+        "numericCode": "376",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/isr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".il"
+          }
+        ]
+      },
+      {
+        "name": "Italy",
+        "area": 301336,
+        "population": 60665551,
+        "capital": "Rome",
+        "numericCode": "380",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ita.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".it"
+          }
+        ]
+      },
+      {
+        "name": "Jamaica",
+        "area": 10991,
+        "population": 2723246,
+        "capital": "Kingston",
+        "numericCode": "388",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/jam.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".jm"
+          }
+        ]
+      },
+      {
+        "name": "Japan",
+        "area": 377930,
+        "population": 126960000,
+        "capital": "Tokyo",
+        "numericCode": "392",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/jpn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".jp"
+          }
+        ]
+      },
+      {
+        "name": "Jersey",
+        "area": 116,
+        "population": 100800,
+        "capital": "Saint Helier",
+        "numericCode": "832",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/jey.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".je"
+          }
+        ]
+      },
+      {
+        "name": "Jordan",
+        "area": 89342,
+        "population": 9531712,
+        "capital": "Amman",
+        "numericCode": "400",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/jor.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".jo"
+          }
+        ]
+      },
+      {
+        "name": "Kazakhstan",
+        "area": 2724900,
+        "population": 17753200,
+        "capital": "Astana",
+        "numericCode": "398",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/kaz.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".қаз"
+          },
+          {
+            "name": ".kz"
+          }
+        ]
+      },
+      {
+        "name": "Kenya",
+        "area": 580367,
+        "population": 47251000,
+        "capital": "Nairobi",
+        "numericCode": "404",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ken.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ke"
+          }
+        ]
+      },
+      {
+        "name": "Kiribati",
+        "area": 811,
+        "population": 113400,
+        "capital": "South Tarawa",
+        "numericCode": "296",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/kir.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ki"
+          }
+        ]
+      },
+      {
+        "name": "Kuwait",
+        "area": 17818,
+        "population": 4183658,
+        "capital": "Kuwait City",
+        "numericCode": "414",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/kwt.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".kw"
+          }
+        ]
+      },
+      {
+        "name": "Kyrgyzstan",
+        "area": 199951,
+        "population": 6047800,
+        "capital": "Bishkek",
+        "numericCode": "417",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/kgz.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".kg"
+          }
+        ]
+      },
+      {
+        "name": "Lao People's Democratic Republic",
+        "area": 236800,
+        "population": 6492400,
+        "capital": "Vientiane",
+        "numericCode": "418",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/lao.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".la"
+          }
+        ]
+      },
+      {
+        "name": "Latvia",
+        "area": 64559,
+        "population": 1961600,
+        "capital": "Riga",
+        "numericCode": "428",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/lva.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".lv"
+          }
+        ]
+      },
+      {
+        "name": "Lebanon",
+        "area": 10452,
+        "population": 5988000,
+        "capital": "Beirut",
+        "numericCode": "422",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/lbn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".lb"
+          }
+        ]
+      },
+      {
+        "name": "Lesotho",
+        "area": 30355,
+        "population": 1894194,
+        "capital": "Maseru",
+        "numericCode": "426",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/lso.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ls"
+          }
+        ]
+      },
+      {
+        "name": "Liberia",
+        "area": 111369,
+        "population": 4615000,
+        "capital": "Monrovia",
+        "numericCode": "430",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/lbr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".lr"
+          }
+        ]
+      },
+      {
+        "name": "Libya",
+        "area": 1759540,
+        "population": 6385000,
+        "capital": "Tripoli",
+        "numericCode": "434",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/lby.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ly"
+          }
+        ]
+      },
+      {
+        "name": "Liechtenstein",
+        "area": 160,
+        "population": 37623,
+        "capital": "Vaduz",
+        "numericCode": "438",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/lie.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".li"
+          }
+        ]
+      },
+      {
+        "name": "Lithuania",
+        "area": 65300,
+        "population": 2872294,
+        "capital": "Vilnius",
+        "numericCode": "440",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ltu.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".lt"
+          }
+        ]
+      },
+      {
+        "name": "Luxembourg",
+        "area": 2586,
+        "population": 576200,
+        "capital": "Luxembourg",
+        "numericCode": "442",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/lux.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".lu"
+          }
+        ]
+      },
+      {
+        "name": "Macao",
+        "area": 30,
+        "population": 649100,
+        "capital": "",
+        "numericCode": "446",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mac.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mo"
+          }
+        ]
+      },
+      {
+        "name": "Macedonia (the former Yugoslav Republic of)",
+        "area": 25713,
+        "population": 2058539,
+        "capital": "Skopje",
+        "numericCode": "807",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mkd.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mk"
+          }
+        ]
+      },
+      {
+        "name": "Madagascar",
+        "area": 587041,
+        "population": 22434363,
+        "capital": "Antananarivo",
+        "numericCode": "450",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mdg.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mg"
+          }
+        ]
+      },
+      {
+        "name": "Malawi",
+        "area": 118484,
+        "population": 16832910,
+        "capital": "Lilongwe",
+        "numericCode": "454",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mwi.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mw"
+          }
+        ]
+      },
+      {
+        "name": "Malaysia",
+        "area": 330803,
+        "population": 31405416,
+        "capital": "Kuala Lumpur",
+        "numericCode": "458",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mys.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".my"
+          }
+        ]
+      },
+      {
+        "name": "Maldives",
+        "area": 300,
+        "population": 344023,
+        "capital": "Malé",
+        "numericCode": "462",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mdv.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mv"
+          }
+        ]
+      },
+      {
+        "name": "Mali",
+        "area": 1240192,
+        "population": 18135000,
+        "capital": "Bamako",
+        "numericCode": "466",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mli.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ml"
+          }
+        ]
+      },
+      {
+        "name": "Malta",
+        "area": 316,
+        "population": 425384,
+        "capital": "Valletta",
+        "numericCode": "470",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mlt.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mt"
+          }
+        ]
+      },
+      {
+        "name": "Marshall Islands",
+        "area": 181,
+        "population": 54880,
+        "capital": "Majuro",
+        "numericCode": "584",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mhl.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mh"
+          }
+        ]
+      },
+      {
+        "name": "Martinique",
+        "area": null,
+        "population": 378243,
+        "capital": "Fort-de-France",
+        "numericCode": "474",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mtq.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mq"
+          }
+        ]
+      },
+      {
+        "name": "Mauritania",
+        "area": 1030700,
+        "population": 3718678,
+        "capital": "Nouakchott",
+        "numericCode": "478",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mrt.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mr"
+          }
+        ]
+      },
+      {
+        "name": "Mauritius",
+        "area": 2040,
+        "population": 1262879,
+        "capital": "Port Louis",
+        "numericCode": "480",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mus.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mu"
+          }
+        ]
+      },
+      {
+        "name": "Mayotte",
+        "area": null,
+        "population": 226915,
+        "capital": "Mamoudzou",
+        "numericCode": "175",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/myt.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".yt"
+          }
+        ]
+      },
+      {
+        "name": "Mexico",
+        "area": 1964375,
+        "population": 122273473,
+        "capital": "Mexico City",
+        "numericCode": "484",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mex.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mx"
+          }
+        ]
+      },
+      {
+        "name": "Micronesia (Federated States of)",
+        "area": 702,
+        "population": 102800,
+        "capital": "Palikir",
+        "numericCode": "583",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/fsm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".fm"
+          }
+        ]
+      },
+      {
+        "name": "Moldova (Republic of)",
+        "area": 33846,
+        "population": 3553100,
+        "capital": "Chișinău",
+        "numericCode": "498",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mda.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".md"
+          }
+        ]
+      },
+      {
+        "name": "Monaco",
+        "area": 2.02,
+        "population": 38400,
+        "capital": "Monaco",
+        "numericCode": "492",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mco.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mc"
+          }
+        ]
+      },
+      {
+        "name": "Mongolia",
+        "area": 1564110,
+        "population": 3093100,
+        "capital": "Ulan Bator",
+        "numericCode": "496",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mng.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mn"
+          }
+        ]
+      },
+      {
+        "name": "Montenegro",
+        "area": 13812,
+        "population": 621810,
+        "capital": "Podgorica",
+        "numericCode": "499",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mne.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".me"
+          }
+        ]
+      },
+      {
+        "name": "Montserrat",
+        "area": 102,
+        "population": 4922,
+        "capital": "Plymouth",
+        "numericCode": "500",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/msr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ms"
+          }
+        ]
+      },
+      {
+        "name": "Morocco",
+        "area": 446550,
+        "population": 33337529,
+        "capital": "Rabat",
+        "numericCode": "504",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mar.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ma"
+          }
+        ]
+      },
+      {
+        "name": "Mozambique",
+        "area": 801590,
+        "population": 26423700,
+        "capital": "Maputo",
+        "numericCode": "508",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/moz.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mz"
+          }
+        ]
+      },
+      {
+        "name": "Myanmar",
+        "area": 676578,
+        "population": 51419420,
+        "capital": "Naypyidaw",
+        "numericCode": "104",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mmr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mm"
+          }
+        ]
+      },
+      {
+        "name": "Namibia",
+        "area": 825615,
+        "population": 2324388,
+        "capital": "Windhoek",
+        "numericCode": "516",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/nam.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".na"
+          }
+        ]
+      },
+      {
+        "name": "Nauru",
+        "area": 21,
+        "population": 10084,
+        "capital": "Yaren",
+        "numericCode": "520",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/nru.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".nr"
+          }
+        ]
+      },
+      {
+        "name": "Nepal",
+        "area": 147181,
+        "population": 28431500,
+        "capital": "Kathmandu",
+        "numericCode": "524",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/npl.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".np"
+          }
+        ]
+      },
+      {
+        "name": "Netherlands",
+        "area": 41850,
+        "population": 17019800,
+        "capital": "Amsterdam",
+        "numericCode": "528",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/nld.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".nl"
+          }
+        ]
+      },
+      {
+        "name": "New Caledonia",
+        "area": 18575,
+        "population": 268767,
+        "capital": "Nouméa",
+        "numericCode": "540",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ncl.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".nc"
+          }
+        ]
+      },
+      {
+        "name": "New Zealand",
+        "area": 270467,
+        "population": 4697854,
+        "capital": "Wellington",
+        "numericCode": "554",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/nzl.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".nz"
+          }
+        ]
+      },
+      {
+        "name": "Nicaragua",
+        "area": 130373,
+        "population": 6262703,
+        "capital": "Managua",
+        "numericCode": "558",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/nic.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ni"
+          }
+        ]
+      },
+      {
+        "name": "Niger",
+        "area": 1267000,
+        "population": 20715000,
+        "capital": "Niamey",
+        "numericCode": "562",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ner.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ne"
+          }
+        ]
+      },
+      {
+        "name": "Nigeria",
+        "area": 923768,
+        "population": 186988000,
+        "capital": "Abuja",
+        "numericCode": "566",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/nga.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ng"
+          }
+        ]
+      },
+      {
+        "name": "Niue",
+        "area": 260,
+        "population": 1470,
+        "capital": "Alofi",
+        "numericCode": "570",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/niu.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".nu"
+          }
+        ]
+      },
+      {
+        "name": "Norfolk Island",
+        "area": 36,
+        "population": 2302,
+        "capital": "Kingston",
+        "numericCode": "574",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/nfk.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".nf"
+          }
+        ]
+      },
+      {
+        "name": "Korea (Democratic People's Republic of)",
+        "area": 120538,
+        "population": 25281000,
+        "capital": "Pyongyang",
+        "numericCode": "408",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/prk.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".kp"
+          }
+        ]
+      },
+      {
+        "name": "Northern Mariana Islands",
+        "area": 464,
+        "population": 56940,
+        "capital": "Saipan",
+        "numericCode": "580",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/mnp.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".mp"
+          }
+        ]
+      },
+      {
+        "name": "Norway",
+        "area": 323802,
+        "population": 5223256,
+        "capital": "Oslo",
+        "numericCode": "578",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/nor.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".no"
+          }
+        ]
+      },
+      {
+        "name": "Oman",
+        "area": 309500,
+        "population": 4420133,
+        "capital": "Muscat",
+        "numericCode": "512",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/omn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".om"
+          }
+        ]
+      },
+      {
+        "name": "Pakistan",
+        "area": 881912,
+        "population": 194125062,
+        "capital": "Islamabad",
+        "numericCode": "586",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/pak.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".pk"
+          }
+        ]
+      },
+      {
+        "name": "Palau",
+        "area": 459,
+        "population": 17950,
+        "capital": "Ngerulmud",
+        "numericCode": "585",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/plw.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".pw"
+          }
+        ]
+      },
+      {
+        "name": "Palestine, State of",
+        "area": null,
+        "population": 4682467,
+        "capital": "Ramallah",
+        "numericCode": "275",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/pse.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ps"
+          }
+        ]
+      },
+      {
+        "name": "Panama",
+        "area": 75417,
+        "population": 3814672,
+        "capital": "Panama City",
+        "numericCode": "591",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/pan.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".pa"
+          }
+        ]
+      },
+      {
+        "name": "Papua New Guinea",
+        "area": 462840,
+        "population": 8083700,
+        "capital": "Port Moresby",
+        "numericCode": "598",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/png.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".pg"
+          }
+        ]
+      },
+      {
+        "name": "Paraguay",
+        "area": 406752,
+        "population": 6854536,
+        "capital": "Asunción",
+        "numericCode": "600",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/pry.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".py"
+          }
+        ]
+      },
+      {
+        "name": "Peru",
+        "area": 1285216,
+        "population": 31488700,
+        "capital": "Lima",
+        "numericCode": "604",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/per.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".pe"
+          }
+        ]
+      },
+      {
+        "name": "Philippines",
+        "area": 342353,
+        "population": 103279800,
+        "capital": "Manila",
+        "numericCode": "608",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/phl.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ph"
+          }
+        ]
+      },
+      {
+        "name": "Pitcairn",
+        "area": 47,
+        "population": 56,
+        "capital": "Adamstown",
+        "numericCode": "612",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/pcn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".pn"
+          }
+        ]
+      },
+      {
+        "name": "Poland",
+        "area": 312679,
+        "population": 38437239,
+        "capital": "Warsaw",
+        "numericCode": "616",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/pol.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".pl"
+          }
+        ]
+      },
+      {
+        "name": "Portugal",
+        "area": 92090,
+        "population": 10374822,
+        "capital": "Lisbon",
+        "numericCode": "620",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/prt.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".pt"
+          }
+        ]
+      },
+      {
+        "name": "Puerto Rico",
+        "area": 8870,
+        "population": 3474182,
+        "capital": "San Juan",
+        "numericCode": "630",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/pri.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".pr"
+          }
+        ]
+      },
+      {
+        "name": "Qatar",
+        "area": 11586,
+        "population": 2587564,
+        "capital": "Doha",
+        "numericCode": "634",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/qat.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".qa"
+          }
+        ]
+      },
+      {
+        "name": "Republic of Kosovo",
+        "area": 10908,
+        "population": 1733842,
+        "capital": "Pristina",
+        "numericCode": null,
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/kos.svg"
+        },
+        "topLevelDomains": [
+          
+        ]
+      },
+      {
+        "name": "Réunion",
+        "area": null,
+        "population": 840974,
+        "capital": "Saint-Denis",
+        "numericCode": "638",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/reu.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".re"
+          }
+        ]
+      },
+      {
+        "name": "Romania",
+        "area": 238391,
+        "population": 19861408,
+        "capital": "Bucharest",
+        "numericCode": "642",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/rou.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ro"
+          }
+        ]
+      },
+      {
+        "name": "Russian Federation",
+        "area": 17124442,
+        "population": 146599183,
+        "capital": "Moscow",
+        "numericCode": "643",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/rus.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ru"
+          }
+        ]
+      },
+      {
+        "name": "Rwanda",
+        "area": 26338,
+        "population": 11553188,
+        "capital": "Kigali",
+        "numericCode": "646",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/rwa.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".rw"
+          }
+        ]
+      },
+      {
+        "name": "Saint Barthélemy",
+        "area": 21,
+        "population": 9417,
+        "capital": "Gustavia",
+        "numericCode": "652",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/blm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".bl"
+          }
+        ]
+      },
+      {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "area": null,
+        "population": 4255,
+        "capital": "Jamestown",
+        "numericCode": "654",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/shn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sh"
+          }
+        ]
+      },
+      {
+        "name": "Saint Kitts and Nevis",
+        "area": 261,
+        "population": 46204,
+        "capital": "Basseterre",
+        "numericCode": "659",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/kna.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".kn"
+          }
+        ]
+      },
+      {
+        "name": "Saint Lucia",
+        "area": 616,
+        "population": 186000,
+        "capital": "Castries",
+        "numericCode": "662",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/lca.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".lc"
+          }
+        ]
+      },
+      {
+        "name": "Saint Martin (French part)",
+        "area": 53,
+        "population": 36979,
+        "capital": "Marigot",
+        "numericCode": "663",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/maf.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gp"
+          },
+          {
+            "name": ".fr"
+          },
+          {
+            "name": ".mf"
+          }
+        ]
+      },
+      {
+        "name": "Saint Pierre and Miquelon",
+        "area": 242,
+        "population": 6069,
+        "capital": "Saint-Pierre",
+        "numericCode": "666",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/spm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".pm"
+          }
+        ]
+      },
+      {
+        "name": "Saint Vincent and the Grenadines",
+        "area": 389,
+        "population": 109991,
+        "capital": "Kingstown",
+        "numericCode": "670",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/vct.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".vc"
+          }
+        ]
+      },
+      {
+        "name": "Samoa",
+        "area": 2842,
+        "population": 194899,
+        "capital": "Apia",
+        "numericCode": "882",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/wsm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ws"
+          }
+        ]
+      },
+      {
+        "name": "San Marino",
+        "area": 61,
+        "population": 33005,
+        "capital": "City of San Marino",
+        "numericCode": "674",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/smr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sm"
+          }
+        ]
+      },
+      {
+        "name": "Sao Tome and Principe",
+        "area": 964,
+        "population": 187356,
+        "capital": "São Tomé",
+        "numericCode": "678",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/stp.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".st"
+          }
+        ]
+      },
+      {
+        "name": "Saudi Arabia",
+        "area": 2149690,
+        "population": 32248200,
+        "capital": "Riyadh",
+        "numericCode": "682",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/sau.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sa"
+          }
+        ]
+      },
+      {
+        "name": "Senegal",
+        "area": 196722,
+        "population": 14799859,
+        "capital": "Dakar",
+        "numericCode": "686",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/sen.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sn"
+          }
+        ]
+      },
+      {
+        "name": "Serbia",
+        "area": 88361,
+        "population": 7076372,
+        "capital": "Belgrade",
+        "numericCode": "688",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/srb.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".rs"
+          }
+        ]
+      },
+      {
+        "name": "Seychelles",
+        "area": 452,
+        "population": 91400,
+        "capital": "Victoria",
+        "numericCode": "690",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/syc.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sc"
+          }
+        ]
+      },
+      {
+        "name": "Sierra Leone",
+        "area": 71740,
+        "population": 7075641,
+        "capital": "Freetown",
+        "numericCode": "694",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/sle.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sl"
+          }
+        ]
+      },
+      {
+        "name": "Singapore",
+        "area": 710,
+        "population": 5535000,
+        "capital": "Singapore",
+        "numericCode": "702",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/sgp.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sg"
+          }
+        ]
+      },
+      {
+        "name": "Sint Maarten (Dutch part)",
+        "area": 34,
+        "population": 38247,
+        "capital": "Philipsburg",
+        "numericCode": "534",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/sxm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sx"
+          }
+        ]
+      },
+      {
+        "name": "Slovakia",
+        "area": 49037,
+        "population": 5426252,
+        "capital": "Bratislava",
+        "numericCode": "703",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/svk.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sk"
+          }
+        ]
+      },
+      {
+        "name": "Slovenia",
+        "area": 20273,
+        "population": 2064188,
+        "capital": "Ljubljana",
+        "numericCode": "705",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/svn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".si"
+          }
+        ]
+      },
+      {
+        "name": "Solomon Islands",
+        "area": 28896,
+        "population": 642000,
+        "capital": "Honiara",
+        "numericCode": "090",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/slb.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sb"
+          }
+        ]
+      },
+      {
+        "name": "Somalia",
+        "area": 637657,
+        "population": 11079000,
+        "capital": "Mogadishu",
+        "numericCode": "706",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/som.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".so"
+          }
+        ]
+      },
+      {
+        "name": "South Africa",
+        "area": 1221037,
+        "population": 55653654,
+        "capital": "Pretoria",
+        "numericCode": "710",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/zaf.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".za"
+          }
+        ]
+      },
+      {
+        "name": "South Georgia and the South Sandwich Islands",
+        "area": null,
+        "population": 30,
+        "capital": "King Edward Point",
+        "numericCode": "239",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/sgs.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".gs"
+          }
+        ]
+      },
+      {
+        "name": "Korea (Republic of)",
+        "area": 100210,
+        "population": 50801405,
+        "capital": "Seoul",
+        "numericCode": "410",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/kor.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".kr"
+          }
+        ]
+      },
+      {
+        "name": "South Sudan",
+        "area": 619745,
+        "population": 12131000,
+        "capital": "Juba",
+        "numericCode": "728",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ssd.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ss"
+          }
+        ]
+      },
+      {
+        "name": "Spain",
+        "area": 505992,
+        "population": 46438422,
+        "capital": "Madrid",
+        "numericCode": "724",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/esp.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".es"
+          }
+        ]
+      },
+      {
+        "name": "Sri Lanka",
+        "area": 65610,
+        "population": 20966000,
+        "capital": "Colombo",
+        "numericCode": "144",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/lka.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".lk"
+          }
+        ]
+      },
+      {
+        "name": "Sudan",
+        "area": 1886068,
+        "population": 39598700,
+        "capital": "Khartoum",
+        "numericCode": "729",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/sdn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sd"
+          }
+        ]
+      },
+      {
+        "name": "Suriname",
+        "area": 163820,
+        "population": 541638,
+        "capital": "Paramaribo",
+        "numericCode": "740",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/sur.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sr"
+          }
+        ]
+      },
+      {
+        "name": "Svalbard and Jan Mayen",
+        "area": null,
+        "population": 2562,
+        "capital": "Longyearbyen",
+        "numericCode": "744",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/sjm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sj"
+          }
+        ]
+      },
+      {
+        "name": "Swaziland",
+        "area": 17364,
+        "population": 1132657,
+        "capital": "Lobamba",
+        "numericCode": "748",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/swz.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sz"
+          }
+        ]
+      },
+      {
+        "name": "Sweden",
+        "area": 450295,
+        "population": 9894888,
+        "capital": "Stockholm",
+        "numericCode": "752",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/swe.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".se"
+          }
+        ]
+      },
+      {
+        "name": "Switzerland",
+        "area": 41284,
+        "population": 8341600,
+        "capital": "Bern",
+        "numericCode": "756",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/che.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ch"
+          }
+        ]
+      },
+      {
+        "name": "Syrian Arab Republic",
+        "area": 185180,
+        "population": 18564000,
+        "capital": "Damascus",
+        "numericCode": "760",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/syr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".sy"
+          }
+        ]
+      },
+      {
+        "name": "Taiwan",
+        "area": 36193,
+        "population": 23503349,
+        "capital": "Taipei",
+        "numericCode": "158",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/twn.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tw"
+          }
+        ]
+      },
+      {
+        "name": "Tajikistan",
+        "area": 143100,
+        "population": 8593600,
+        "capital": "Dushanbe",
+        "numericCode": "762",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tjk.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tj"
+          }
+        ]
+      },
+      {
+        "name": "Tanzania, United Republic of",
+        "area": 945087,
+        "population": 55155000,
+        "capital": "Dodoma",
+        "numericCode": "834",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tza.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tz"
+          }
+        ]
+      },
+      {
+        "name": "Thailand",
+        "area": 513120,
+        "population": 65327652,
+        "capital": "Bangkok",
+        "numericCode": "764",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tha.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".th"
+          }
+        ]
+      },
+      {
+        "name": "Timor-Leste",
+        "area": 14874,
+        "population": 1167242,
+        "capital": "Dili",
+        "numericCode": "626",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tls.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tl"
+          }
+        ]
+      },
+      {
+        "name": "Togo",
+        "area": 56785,
+        "population": 7143000,
+        "capital": "Lomé",
+        "numericCode": "768",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tgo.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tg"
+          }
+        ]
+      },
+      {
+        "name": "Tokelau",
+        "area": 12,
+        "population": 1411,
+        "capital": "Fakaofo",
+        "numericCode": "772",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tkl.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tk"
+          }
+        ]
+      },
+      {
+        "name": "Tonga",
+        "area": 747,
+        "population": 103252,
+        "capital": "Nuku'alofa",
+        "numericCode": "776",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ton.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".to"
+          }
+        ]
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "area": 5130,
+        "population": 1349667,
+        "capital": "Port of Spain",
+        "numericCode": "780",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tto.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tt"
+          }
+        ]
+      },
+      {
+        "name": "Tunisia",
+        "area": 163610,
+        "population": 11154400,
+        "capital": "Tunis",
+        "numericCode": "788",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tun.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tn"
+          }
+        ]
+      },
+      {
+        "name": "Turkey",
+        "area": 783562,
+        "population": 78741053,
+        "capital": "Ankara",
+        "numericCode": "792",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tur.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tr"
+          }
+        ]
+      },
+      {
+        "name": "Turkmenistan",
+        "area": 488100,
+        "population": 4751120,
+        "capital": "Ashgabat",
+        "numericCode": "795",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tkm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tm"
+          }
+        ]
+      },
+      {
+        "name": "Turks and Caicos Islands",
+        "area": 948,
+        "population": 31458,
+        "capital": "Cockburn Town",
+        "numericCode": "796",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tca.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tc"
+          }
+        ]
+      },
+      {
+        "name": "Tuvalu",
+        "area": 26,
+        "population": 10640,
+        "capital": "Funafuti",
+        "numericCode": "798",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/tuv.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".tv"
+          }
+        ]
+      },
+      {
+        "name": "Uganda",
+        "area": 241550,
+        "population": 33860700,
+        "capital": "Kampala",
+        "numericCode": "800",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/uga.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ug"
+          }
+        ]
+      },
+      {
+        "name": "Ukraine",
+        "area": 603700,
+        "population": 42692393,
+        "capital": "Kiev",
+        "numericCode": "804",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ukr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ua"
+          }
+        ]
+      },
+      {
+        "name": "United Arab Emirates",
+        "area": 83600,
+        "population": 9856000,
+        "capital": "Abu Dhabi",
+        "numericCode": "784",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/are.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ae"
+          }
+        ]
+      },
+      {
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "area": 242900,
+        "population": 65110000,
+        "capital": "London",
+        "numericCode": "826",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/gbr.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".uk"
+          }
+        ]
+      },
+      {
+        "name": "United States of America",
+        "area": 9629091,
+        "population": 323947000,
+        "capital": "Washington, D.C.",
+        "numericCode": "840",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/usa.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".us"
+          }
+        ]
+      },
+      {
+        "name": "Uruguay",
+        "area": 181034,
+        "population": 3480222,
+        "capital": "Montevideo",
+        "numericCode": "858",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ury.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".uy"
+          }
+        ]
+      },
+      {
+        "name": "Uzbekistan",
+        "area": 447400,
+        "population": 31576400,
+        "capital": "Tashkent",
+        "numericCode": "860",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/uzb.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".uz"
+          }
+        ]
+      },
+      {
+        "name": "Vanuatu",
+        "area": 12189,
+        "population": 277500,
+        "capital": "Port Vila",
+        "numericCode": "548",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/vut.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".vu"
+          }
+        ]
+      },
+      {
+        "name": "Venezuela (Bolivarian Republic of)",
+        "area": 916445,
+        "population": 31028700,
+        "capital": "Caracas",
+        "numericCode": "862",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/ven.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ve"
+          }
+        ]
+      },
+      {
+        "name": "Viet Nam",
+        "area": 331212,
+        "population": 92700000,
+        "capital": "Hanoi",
+        "numericCode": "704",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/vnm.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".vn"
+          }
+        ]
+      },
+      {
+        "name": "Wallis and Futuna",
+        "area": 142,
+        "population": 11750,
+        "capital": "Mata-Utu",
+        "numericCode": "876",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/wlf.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".wf"
+          }
+        ]
+      },
+      {
+        "name": "Western Sahara",
+        "area": 266000,
+        "population": 510713,
+        "capital": "El Aaiún",
+        "numericCode": "732",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/esh.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".eh"
+          }
+        ]
+      },
+      {
+        "name": "Yemen",
+        "area": 527968,
+        "population": 27478000,
+        "capital": "Sana'a",
+        "numericCode": "887",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/yem.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".ye"
+          }
+        ]
+      },
+      {
+        "name": "Zambia",
+        "area": 752612,
+        "population": 15933883,
+        "capital": "Lusaka",
+        "numericCode": "894",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/zmb.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".zm"
+          }
+        ]
+      },
+      {
+        "name": "Zimbabwe",
+        "area": 390757,
+        "population": 14240168,
+        "capital": "Harare",
+        "numericCode": "716",
+        "flag": {
+          "svgFile": "https://restcountries.eu/data/zwe.svg"
+        },
+        "topLevelDomains": [
+          {
+            "name": ".zw"
+          }
+        ]
+      }
+    ]
+  }
+}

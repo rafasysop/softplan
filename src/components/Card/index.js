@@ -7,11 +7,7 @@ import { useQuery } from '@apollo/client';
 import { GET_COUNTRY, countries } from '../../config/client-graphql';
 
 function Card() {
-  const { data: cache, client } = useQuery(GET_COUNTRY);
-  console.log('Este é o Cache', cache);
-  console.log('Este é o Client', client);
- 
-  // const countryLocal = JSON.parse(localStorage.getItem('Country'));
+  const { data: cache } = useQuery(GET_COUNTRY); 
   let { loading, data } = useQuery(countries);
   if (cache) {
     data = cache;
@@ -19,20 +15,19 @@ function Card() {
   const [filter, setFilter] = useState('');
   if (loading) return (
     <div className="load">
-      <img src={ loadingIMG } alt="Loading"/>
+      <img src={ loadingIMG } data-testid='img-loading' alt="Loading"/>
     </div>);
-  // localStorage.setItem('Country', JSON.stringify(data))
   return (
-    <>
-      <div className='search-container' >
+    <main>
+      <section className='search-container' >
         <input
           name='search'
           className="search"
           onChange={({ target }) => setFilter(target.value)}
           placeholder='Search Country'
         />
-      </div>
-      <div className='card-container'>
+      </section>
+      <section className='card-container'>
         {data.Country?.filter(item => (item.name).toLowerCase()
             .includes(filter.toLocaleLowerCase())).map((pais) => (
           <div key={pais.numericCode} className='card'>
@@ -47,8 +42,8 @@ function Card() {
             </Link>
           </div>
         ))}
-      </div>
-    </>
+      </section>
+    </main>
   )
 }
 
