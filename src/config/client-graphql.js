@@ -13,6 +13,10 @@ query GetCOUNTRY {
     area
     population
     capital
+    location {
+      latitude
+      longitude
+    }
     numericCode
     flag {
       svgFile

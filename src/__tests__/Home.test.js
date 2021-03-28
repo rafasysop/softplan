@@ -1,52 +1,57 @@
 import React from 'react';
-import { render, cleanup } from '@testing-library/react';
-import TestRenderer from 'react-test-renderer';
+
+import { cleanup } from '@testing-library/react';
+import renderer from 'react-test-renderer';
 import '@testing-library/jest-dom/extend-expect'
+
 import { MockedProvider  } from '@apollo/client/testing';
+import { mocks } from '../data/testData';
 import Home from '../pages/Home';
-import { renderHook } from '@testing-library/react-hooks';
-import { useQuery } from '@apollo/client';
-import { countries } from '../config/client-graphql';
-import MyCard from '../components/Card';
-import { mocks } from './testData';
-const ImgLoading = 'img-loading';
+
 
 describe('Test Home Page', () => {
   
   afterEach(cleanup);
   
-  it('Verifica se aparece o Texto Country List', async () => {
-    const { result: { data } } = renderHook(() => useQuery(countries))
-    const { getByText } = render(
-      // mocks={mocks} addTypename={false}
-      <MockedProvider mocks={ data } addTypename={false}>
+  it('Checks if a Header exists', async () => {
+    const home = renderer.create(
+      <MockedProvider mocks={ mocks } addTypename={false}>
         <Home />
       </MockedProvider>,
       );
-
-    expect(getByText('Country List')).toBeInTheDocument();
+    const tree = home.toJSON();
+    expect(tree[0].type).toBe('header');
   })
 
-  it('Verifica se aparece a IMG Loading', async () => {
-    const { result: { data }} = renderHook(() => useQuery(countries))
-    const { getByTestId } = render(
-      <MockedProvider mocks={ data } addTypename={false}>
+  it('Checks if there is h1 inside Header', async () => {
+    const home = renderer.create(
+      <MockedProvider mocks={ mocks } addTypename={false}>
+        <Home />
+      </MockedProvider>,
+      );
+    const tree = home.toJSON();
+    console.log(tree[0].children[1].children[0]);
+    expect(tree[0].children[1].children[0].type).toBe('h1');
+  })
+
+  it('Checks whether the Country List text exists within h1', async () => {
+    const home = renderer.create(
+      <MockedProvider mocks={ mocks } addTypename={false}>
+        <Home />
+      </MockedProvider>,
+      );
+    const tree = home.toJSON();
+    console.log(tree[0].children[1].children[0]);
+    expect(tree[0].children[1].children[0].children[0]).toBe('Country List');
+  })
+
+  it('Check if IMG Loading appears', async () => {
+    const home = renderer.create(
+      <MockedProvider mocks={ mocks } addTypename={false}>
           <Home />
       </MockedProvider>,
       );
-      expect(getByTestId(ImgLoading)).toBeInTheDocument();
+    const tree = home.toJSON();
+    expect(tree[1].children[0].props.src).toBe('loading.svg');
   })
-})
-
-describe('test Card', () => {
-   it('Test Card Mock', () => {
-    const card = TestRenderer.create(
-      <MockedProvider mocks={mocks} addTypename={false}>
-        <MyCard />
-      </MockedProvider>,
-    );
-
-     const tree = card.toJSON();
-     console.log(tree);
-   })
 })

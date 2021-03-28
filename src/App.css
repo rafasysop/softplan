@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   font-size: 40px;
-  width: 200px;
+  width: 60%;
   margin: 3% 0 1%;
 }
 
@@ -27,9 +27,13 @@
 }
 
 table {
+  width: 80%;
   box-shadow: 5px 6px 15px #333;
+  margin-bottom: 15px;
   padding: 10px;
 }
+
+
 
 table thead th{
   font-size: 20px;
@@ -38,14 +42,15 @@ table thead th{
 }
 
 table tbody td {
+  width: 60%;
   box-shadow: 0 0 4px #aaa;
   padding: 2px 5px;
 }
 
-table tbody td p {
-  margin: 0;
-  padding: 0;
+table input {
+  width: 100%;
 }
+
 
 .cap-table {
   width: 150px;

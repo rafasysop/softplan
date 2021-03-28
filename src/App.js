@@ -1,4 +1,5 @@
 import React from 'react'
+import './Map.css';
 import './App.css';
 
 import { client } from './config/client-graphql';

@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -10,10 +10,10 @@ import CountryDetail from "../pages/CountryDetail";
 
 function Routes() {
   return (
-    <Router basename="/">
+    <Router>
       <Switch>
-      <Route path='/country/:id' component={ CountryDetail } />
-      <Route path='/' exact component={ Home } />
+        <Route path='/country/:id' component={ CountryDetail } />
+        <Route path='/' exact component={ Home } />
       </Switch>
     </Router>
   )

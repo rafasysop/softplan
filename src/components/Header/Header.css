@@ -15,9 +15,16 @@ header {
 
 .text-title {
   align-items: center;
-  min-width: 272px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  min-width: 272px;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 15px;
 }
 
 .spacer {

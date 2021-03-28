@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 
+
 import { useQuery } from '@apollo/client';
 import { GET_COUNTRY } from '../config/client-graphql'
 
@@ -24,7 +25,7 @@ function CountryDetail(props) {
   const { loading, error, data, client } = useQuery(GET_COUNTRY)
   
   const saveInfo = () => {
-      const newCountry = { Country: data.Country.map((item, i) => {
+      const newCountry = { Country: data.Country?.map((item, i) => {
         if (i === index) {
           return { 
             ...item,
@@ -53,7 +54,7 @@ function CountryDetail(props) {
   if (error) return <p>Error :(</p>;
 
   if (data.Country){
-    const newIndex = data.Country.findIndex(item => item.numericCode === id);
+    const newIndex = data.Country?.findIndex(item => item.numericCode === id);
     if (index === undefined) {
       setIndex(newIndex)
     }
@@ -64,7 +65,7 @@ function CountryDetail(props) {
       capital,
       area,
       population,
-      topLevelDomains } = data.Country.filter(item => item.numericCode === id)[0];
+      topLevelDomains } = data.Country?.filter(item => item.numericCode === id)[0];
 
     if (nameState === undefined) {
       setNameState(name)

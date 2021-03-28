@@ -1,23 +1,32 @@
 import React from 'react';
 import { MockedProvider } from '@apollo/client/testing';
-// import CountryDetail from "../pages/CountryDetail";
-// import { mocks } from './testData';
-import { renderHook } from '@testing-library/react-hooks';
-import useCountries from './useCountries';
+import renderer from 'react-test-renderer';
+import { Router } from 'react-router-dom';
+
+import { mocks } from '../data/testData';
 import CountryDetail from '../pages/CountryDetail';
-import renderWithRouter from './renderWithRouter';
+import { createMemoryHistory } from 'history';
+
+const history = createMemoryHistory();
 
 describe('Test CountryDetails', () => {
   it('Test if True to be Truthy', async () => {
-    const { result, waitForNextUpdate } = renderHook(() => useCountries() );
-    const mocks = [];
-    const { debug } = renderWithRouter(
-      <MockedProvider mocks={mocks} addTypename={false}>
-          <CountryDetail />  
-      </MockedProvider>
+    const location = {
+      pathname: '/country/004',
+    }
+    history.push(location);
+
+    const detail = renderer.create(
+      <Router history={ history }>
+        <MockedProvider mocks={mocks} addTypename={false}>
+            <CountryDetail />  
+        </MockedProvider>
+      </Router>
       );
-    debug();
-    console.log(result);
-    return { result, waitForNextUpdate };
+      await Promise.resolve();
+
+      const tree = detail.toJSON();
+      console.log(tree);
+
   })
 })

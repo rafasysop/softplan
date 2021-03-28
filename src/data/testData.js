@@ -1,8 +1,9 @@
-import { countries } from '../config/client-graphql';
+import { GET_COUNTRY } from '../config/client-graphql';
 
-export const mocks = {
-    request: {
-      query: countries
+export const mocks = [
+    {
+      request: {
+      query: GET_COUNTRY,
     },
     result: {
       data: {
@@ -40,4 +41,5 @@ export const mocks = {
         ]
       }
     }
-  };
+  }
+];
