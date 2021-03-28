@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './Card.css';
 import loadingIMG from '../../assets/loading.svg';
 import { Link } from 'react-router-dom';
+import { IoMdCloseCircleOutline } from 'react-icons/io';
+
 
 import { useQuery } from '@apollo/client';
 import { GET_COUNTRY, countries } from '../../config/client-graphql';
@@ -23,8 +25,14 @@ function Card() {
         <input
           name='search'
           className="search"
+          value={filter}
           onChange={({ target }) => setFilter(target.value)}
           placeholder='Search Country'
+        />
+        <IoMdCloseCircleOutline
+          style={ filter.length >= 1 ? { opacity: 1 } : { opacity: 0.3} }
+          className='but'
+          onClick={ () => setFilter('') }
         />
       </section>
       <section className='card-container'>

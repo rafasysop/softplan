@@ -8,6 +8,15 @@
   margin: 10px 0 ;
 }
 
+.close {
+  position: fixed;
+  right: 1.5rem;
+  top: 4.5rem;
+  /* margin-left: -10%;
+  margin-top: 2%; */
+  font-size: 1.5em;
+}
+
 .card {
   border-radius: 10px;
   display: flex;
@@ -43,12 +52,22 @@
 }
 
 .search {
-  font-weight: 700;
-  border: #ccc solid 1px;
   background-color: #efefef;
+  border: #ccc solid 1px;
   border-radius: 7px;
+  display:inline-block;
+  font-weight: 700;
   width: 80%;
   padding: 10px 25px;
+}
+
+.but {
+  color: rgb(136, 13, 13);
+  opacity: 0.3;
+  font-size: 1.3em;
+  margin-top: 10px;
+  margin-left: -30px;
+  float: right;
 }
 
 .more-datails {

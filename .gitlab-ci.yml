@@ -1,0 +1,10 @@
+image: node:latest
+
+pages:
+  script:
+    - echo "nenhum"
+    artifacts:
+      path:
+        - build
+    only:
+      - master
