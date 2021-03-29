@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 import { useQuery } from '@apollo/client';
-import { GET_COUNTRY } from '../config/client-graphql'
+import { countries, GET_COUNTRY } from '../config/client-graphql'
 
 import loadingIMG from '../assets/loading.svg';
 import Header from '../components/Header';
@@ -21,8 +21,13 @@ function CountryDetail(props) {
   const [populationState, setPopulationState] = useState();
   const [domainState, setDomainState] = useState();
 
+  const { data: cache, client: client2 } = useQuery(GET_COUNTRY); 
+  let { loading, data, client } = useQuery(countries);
 
-  const { loading, error, data, client } = useQuery(GET_COUNTRY)
+  if (cache) {
+    data = cache;
+    client = client2;
+  } 
   
   const saveInfo = () => {
       const newCountry = { Country: data.Country?.map((item, i) => {
@@ -50,8 +55,6 @@ function CountryDetail(props) {
     <div className="load">
       <img src={ loadingIMG } alt="Loading"/>
     </div>);
-
-  if (error) return <p>Error :(</p>;
 
   if (data.Country){
     const newIndex = data.Country?.findIndex(item => item.numericCode === id);
