@@ -3,6 +3,6 @@ RUN apk add --update nodejs
 COPY . /var/www
 WORKDIR /var/www
 RUN npm i
-RUN npm i react-scripts@3.4.1 -g
+RUN npm i react-scripts@4.0.3 -g
 ENTRYPOINT npm start
-EXPOSE 80
+EXPOSE 4000
